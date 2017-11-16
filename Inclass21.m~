@@ -37,33 +37,9 @@ hold off;
 % write code that simulates this system for several different starting
 % values of x and y. Plot the results and comment on them. 
 
-figure;
-hold on;
+figue
 
-colors = ['g.-', 'r.-', 'y.-','m.-','c.-','b.-','k.-'];
-
-for x = 1:7
- for y = 1:7
-interval= [0 100];
-nstep = 100;
-dt= (interval(2)-interval(1))/nstep;
-
-solx(1) = 0;
-soly(1) = 0;
-for ii = 2:nstep
-    solx(ii) = solx(ii-1) + rhsp2(y)*dt;
-    soly(ii) = soly(ii-1) + rhsp22(x,y)*dt;
-end
-
-tt=linspace(interval(1),interval(2),nstep);
-
-plot(tt,solx,'b-');
-plot(tt,soly,colors(x));
-
- end
-end
-hold off;
-
-% as the values of x and y increases the equations values decrease
+for x = 1:10
+    
 
 
