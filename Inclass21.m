@@ -1,5 +1,11 @@
 %In class 21
 
+%GB comments
+1 90 More careful discussion regarding how parameters are affecting system behavior should be provided
+2 90 More careful discussion regarding how parameters are affecting system behavior should be provided
+overall 90
+
+
 % 1. Consider the system we discussed in class for a gene which is produced
 % and degraded: dx/dt = k - d*x. Now consider that this gene turns on a
 % second gene y, which also degrades so that its equation is 
